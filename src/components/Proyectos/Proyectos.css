@@ -1,0 +1,63 @@
+.proyectsContainer{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 80%;
+    border: 2px dashed gray;
+}
+
+.proyect{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.proyectImg{
+    width: 30%;
+}
+.proyectImg img{
+    width: 100%;
+}
+
+.proyectContent{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.proyectContent .fecha{
+    font-size: 13px;
+    color: bisque;
+    font-weight: 600;
+}
+.proyectContent h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+.proyectContent p{
+    font-size: 15px;
+    color: bisque;
+    font-weight: 400;
+}
+.tecnologias ion-icon{
+    font-size: 20px;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.buttons a{
+    background-color: bisque;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}

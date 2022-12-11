@@ -1,0 +1,54 @@
+.main{
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftContent h1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    letter-spacing: -2px;
+    color: white;
+    font-size: 40px;
+}
+.leftContent p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200;
+    font-size: 20px;
+    color: #7FFFD4;
+}
+.HeaderSubButton{
+    background-color: #7FFFD4;
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+.HeaderButton{
+    background-color: #7FFFD4;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 4px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+}
+.HeaderButton:hover, .HeaderSubButton:hover{
+    cursor: pointer;
+}
+
+.right{
+    width: 30%;
+}
+.right img{
+    width: 80%;
+    margin: 0;
+    border-radius: 50%;
+    float: right;
+    border: 2px solid #7FFFD4;
+    padding: 4px;
+}
+

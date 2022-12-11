@@ -1,0 +1,69 @@
+.subtitle{
+    margin-top: 65px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+}
+.HabilidadesColor{
+    margin-right: 15px;
+    color: #7FFFD4;
+}
+
+.HabilidadesContainer h3{
+    margin-top: 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    color: white;
+    opacity: .7;
+    font-size: 20px;
+}
+
+.line{
+    margin-top: 10px;
+    width: 100%;
+    border: 2px dashed gray;
+}
+
+.Habilidad1 {
+    margin-top: 16px;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 150px 150px 150px 150px;
+    align-items: center;
+    grid-gap: 35px;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.Habilidad1 p{
+    color: white;
+    text-align: center;
+}
+
+.Habilidad1 ion-icon{
+    font-size: 50px;
+}
+
+.HabilidadJs > ion-icon{
+    color: yellow;
+}
+.HabilidadReact > ion-icon{
+    color: #61dbfb;
+}
+.HabilidadHtml > ion-icon{
+    color: rgb(240, 101, 41);
+}
+.HabilidadCss > ion-icon{
+    color: #61dbfb;
+}
+.HabilidadSass > ion-icon{
+    color: #CD6799;
+}
+.HabilidadBootstrap > ion-icon{
+    color:  #563d7c;
+}
+.HabilidadNode > ion-icon{
+    color: #68A063;
+}
