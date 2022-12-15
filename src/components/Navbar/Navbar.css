@@ -67,3 +67,18 @@
 .third{
     border: 2px solid #FBCEB1;
 }
+
+@media(max-width: 701px){
+    .circuloContainer{
+        display: none;
+    }
+    
+    .circulo{
+        display: none;
+        margin-right: 4px;
+        background: none;
+        width: 21px;
+        border-radius: 50%;
+        height: 100%;
+    }
+}

@@ -61,3 +61,12 @@
     color: black;
     text-decoration: none;
 }
+
+@media(max-width: 1310px){
+    .proyectImg{
+        width: 50%;
+    }
+    .proyectImg img{
+        width: 100%;
+    }
+}

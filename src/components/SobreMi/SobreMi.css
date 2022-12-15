@@ -52,3 +52,11 @@
     padding: 4px;
 }
 
+@media(max-width: 1111px){
+    .right{
+        display: none;
+    }
+    .right img{
+        display: none;
+    }
+}
